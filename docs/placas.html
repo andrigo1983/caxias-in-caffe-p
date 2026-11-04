@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://unpkg.com https://cdn.jsdelivr.net; connect-src 'self'; img-src 'self' data: blob: https:; style-src 'self' 'unsafe-inline' https://unpkg.com; base-uri 'self'; form-action 'self'">
+<meta name="robots" content="noindex">
+<title>Placas QR de teste · Caxias in Caffè</title>
+<link rel="icon" href="img/icon-192.png">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="demo-bar">PLACAS DE TESTE · válidas somente na versão de demonstração</div>
+<main class="wrap">
+  <section class="box no-print">
+    <h1>Placas QR de teste</h1>
+    <p>Abra esta página no <b>computador</b> e leia os QR Codes com o <b>celular</b> (pelo botão Check-in da demonstração ou pela câmera do celular). Também dá para imprimir.</p>
+    <p><a class="btn-sec" href="index.html">← Voltar à demonstração</a> <button class="btn" id="print">🖨️ Imprimir</button></p>
+  </section>
+  <div class="plaques" id="plaques"></div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+<script src="placas.js"></script>
+</body>
+</html>

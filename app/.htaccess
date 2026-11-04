@@ -1,0 +1,2 @@
+# Se esta pasta for exposta por engano, nega tudo. O DocumentRoot deve ser app/public
+Require all denied

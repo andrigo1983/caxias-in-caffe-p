@@ -1,0 +1,16 @@
+# ---- Segredos e dados pessoais: NUNCA versionar ----
+app/config/config.php
+app/config/*.csv
+*.env
+*PRIVADO*
+*privado*
+credenciais*.csv
+03_dados_privados*.sql
+# ---- Uploads das cafeterias (ficam só no servidor) ----
+app/public/uploads/cafes/*
+!app/public/uploads/cafes/.gitkeep
+# ---- Sistema ----
+.DS_Store
+Thumbs.db
+.vscode/
+*.log

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" width="900" height="580">
+  <title>Caxias in Caffè</title>
+  <text x="20" y="200" font-family="'Segoe Script','Brush Script MT','DejaVu Serif',serif" font-style="italic" font-weight="700" font-size="185" fill="#3d1f12">Caxias</text>
+  <text x="30" y="440" font-family="'Segoe Script','Brush Script MT','DejaVu Serif',serif" font-style="italic" font-size="115" fill="#8a4b24">in Caffè</text>
+  <path d="M15 540 C 180 470, 380 470, 560 465 C 380 485, 200 510, 40 575 Z" fill="#f2a93b"/>
+  <path d="M700 320 C 670 290, 740 270, 705 240 C 680 220, 715 205, 708 185" stroke="#3d1f12" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <ellipse cx="700" cy="520" rx="190" ry="40" fill="#d9c3a5"/>
+  <ellipse cx="700" cy="512" rx="150" ry="22" fill="#b9a28a"/>
+  <path d="M560 340 L 840 340 C 835 440, 790 505, 700 505 C 610 505, 565 440, 560 340 Z" fill="#e9dcc9"/>
+  <path d="M835 365 C 905 360, 905 440, 815 450" stroke="#d9c3a5" stroke-width="20" fill="none"/>
+  <ellipse cx="700" cy="340" rx="140" ry="30" fill="#e9dcc9"/>
+  <ellipse cx="700" cy="342" rx="122" ry="20" fill="#5a2e17"/>
+</svg>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://accounts.google.com https://unpkg.com https://cdn.jsdelivr.net; frame-src https://accounts.google.com; connect-src 'self' https://accounts.google.com; img-src 'self' data: blob: https:; style-src 'self' 'unsafe-inline' https://accounts.google.com https://unpkg.com; base-uri 'self'; form-action 'self'">
+<meta name="theme-color" content="#3d1f12">
+<meta name="description" content="Caxias in Caffè 2026 - visite as cafeterias participantes, faça check-in e complete seu passaporte.">
+<title>Caxias in Caffè 2026</title>
+<link rel="icon" href="assets/img/icon-192.png">
+<link rel="apple-touch-icon" href="assets/img/icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/"><img src="assets/img/logo.png" alt="Caxias in Caffè"></a>
+  <button class="menu-btn" id="menu-btn" aria-label="Menu">☰</button>
+  <nav id="nav"></nav>
+</header>
+<main class="wrap" id="view"><p class="muted">Carregando…</p></main>
+<footer class="foot">
+  <img src="assets/img/logo.png" alt="" class="foot-logo">
+  <p>Caxias in Caffè 2026 · Sindilojas Caxias do Sul · Secretaria Municipal de Turismo</p>
+  <p><a href="#/como-funciona">Como funciona</a> · <a href="#/privacidade">Política de Privacidade</a> · <a href="#/termos">Termos de Uso</a> · <a href="painel.html">Acesso Cafeterias/Admin</a></p>
+</footer>
+<script src="https://accounts.google.com/gsi/client" async></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+<script src="assets/js/api.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
